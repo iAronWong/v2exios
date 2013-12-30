@@ -32,6 +32,7 @@
 		8D4DE2F5186BC5940021255D /* VXRecentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4DE2F3186BC5940021255D /* VXRecentViewController.m */; };
 		8D4DE2F6186BC5940021255D /* VXRecentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D4DE2F4186BC5940021255D /* VXRecentViewController.xib */; };
 		8D4DE2FA186BFB150021255D /* VXRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4DE2F9186BFB150021255D /* VXRequest.m */; };
+		8D8801271871384300C20F7B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D8801261871384300C20F7B /* Icon@2x.png */; };
 		8DDC45F6186C5D7B00FD180E /* VXThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDC45F4186C5D7B00FD180E /* VXThreadViewController.m */; };
 		8DDC45F7186C5D7B00FD180E /* VXThreadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DDC45F5186C5D7B00FD180E /* VXThreadViewController.xib */; };
 		8DE143EC187119C2004CDF82 /* VXNoteListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE143EA187119C2004CDF82 /* VXNoteListViewController.m */; };
@@ -39,7 +40,6 @@
 		8DE143F018712BE4004CDF82 /* reveal-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DE143EE18712BE4004CDF82 /* reveal-icon.png */; };
 		8DE143F118712BE4004CDF82 /* reveal-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DE143EF18712BE4004CDF82 /* reveal-icon@2x.png */; };
 		8DE143F41871317D004CDF82 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DE143F21871317D004CDF82 /* Icon.png */; };
-		8DE143F51871317D004CDF82 /* Icon.png@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DE143F31871317D004CDF82 /* Icon.png@2x.png */; };
 		DC60748A7EAD4488BDBF07AC /* libPods-v2exios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5F72099C844364B904D639 /* libPods-v2exios.a */; };
 /* End PBXBuildFile section */
 
@@ -92,6 +92,7 @@
 		8D4DE2F4186BC5940021255D /* VXRecentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VXRecentViewController.xib; sourceTree = "<group>"; };
 		8D4DE2F8186BFB150021255D /* VXRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXRequest.h; sourceTree = "<group>"; };
 		8D4DE2F9186BFB150021255D /* VXRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXRequest.m; sourceTree = "<group>"; };
+		8D8801261871384300C20F7B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		8DDC45F3186C5D7B00FD180E /* VXThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXThreadViewController.h; sourceTree = "<group>"; };
 		8DDC45F4186C5D7B00FD180E /* VXThreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXThreadViewController.m; sourceTree = "<group>"; };
 		8DDC45F5186C5D7B00FD180E /* VXThreadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VXThreadViewController.xib; sourceTree = "<group>"; };
@@ -101,7 +102,6 @@
 		8DE143EE18712BE4004CDF82 /* reveal-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reveal-icon.png"; sourceTree = "<group>"; };
 		8DE143EF18712BE4004CDF82 /* reveal-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reveal-icon@2x.png"; sourceTree = "<group>"; };
 		8DE143F21871317D004CDF82 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		8DE143F31871317D004CDF82 /* Icon.png@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon.png@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,8 +190,8 @@
 		8D36AF95186A79DC00594B66 /* v2exios */ = {
 			isa = PBXGroup;
 			children = (
+				8D8801261871384300C20F7B /* Icon@2x.png */,
 				8DE143F21871317D004CDF82 /* Icon.png */,
-				8DE143F31871317D004CDF82 /* Icon.png@2x.png */,
 				8D0BA53F186D5E2100F8D95F /* Images */,
 				8D4DE2E5186BC1600021255D /* Classes */,
 				8D36AF9E186A79DC00594B66 /* VXAppDelegate.h */,
@@ -356,9 +356,9 @@
 				8D4DE2F6186BC5940021255D /* VXRecentViewController.xib in Resources */,
 				8D0BA546186D68E500F8D95F /* VXPostCell.xib in Resources */,
 				8D0BA541186D5E2100F8D95F /* avatar.png in Resources */,
-				8DE143F51871317D004CDF82 /* Icon.png@2x.png in Resources */,
 				8DE143F118712BE4004CDF82 /* reveal-icon@2x.png in Resources */,
 				8D0BA53C186D4F1800F8D95F /* VXThreadCell.xib in Resources */,
+				8D8801271871384300C20F7B /* Icon@2x.png in Resources */,
 				8D4DE2F1186BC5830021255D /* VXMenuViewController.xib in Resources */,
 				8D0BA54B186D7E4F00F8D95F /* VXThreadDetailCell.xib in Resources */,
 				8DE143F41871317D004CDF82 /* Icon.png in Resources */,
