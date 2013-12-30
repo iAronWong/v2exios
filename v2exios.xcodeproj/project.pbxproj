@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D0BA53A186D4ADC00F8D95F /* VXThreadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0BA539186D4ADC00F8D95F /* VXThreadCell.m */; };
+		8D0BA53C186D4F1800F8D95F /* VXThreadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D0BA53B186D4F1800F8D95F /* VXThreadCell.xib */; };
+		8D0BA541186D5E2100F8D95F /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0BA540186D5E2100F8D95F /* avatar.png */; };
+		8D0BA544186D68CF00F8D95F /* VXPostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0BA543186D68CF00F8D95F /* VXPostCell.m */; };
+		8D0BA546186D68E500F8D95F /* VXPostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D0BA545186D68E500F8D95F /* VXPostCell.xib */; };
+		8D0BA549186D7E4100F8D95F /* VXThreadDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0BA548186D7E4100F8D95F /* VXThreadDetailCell.m */; };
+		8D0BA54B186D7E4F00F8D95F /* VXThreadDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D0BA54A186D7E4F00F8D95F /* VXThreadDetailCell.xib */; };
+		8D2DC63C186EFF3700CDFDF4 /* VXNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2DC63A186EFF3700CDFDF4 /* VXNoteViewController.m */; };
+		8D2DC63D186EFF3700CDFDF4 /* VXNoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D2DC63B186EFF3700CDFDF4 /* VXNoteViewController.xib */; };
+		8D36AF90186A79DC00594B66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D36AF8F186A79DC00594B66 /* Foundation.framework */; };
+		8D36AF92186A79DC00594B66 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D36AF91186A79DC00594B66 /* CoreGraphics.framework */; };
+		8D36AF94186A79DC00594B66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D36AF93186A79DC00594B66 /* UIKit.framework */; };
+		8D36AF9A186A79DC00594B66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D36AF98186A79DC00594B66 /* InfoPlist.strings */; };
+		8D36AF9C186A79DC00594B66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D36AF9B186A79DC00594B66 /* main.m */; };
+		8D36AFA0186A79DC00594B66 /* VXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D36AF9F186A79DC00594B66 /* VXAppDelegate.m */; };
+		8D36AFA9186A79DC00594B66 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D36AFA8186A79DC00594B66 /* XCTest.framework */; };
+		8D36AFAA186A79DC00594B66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D36AF8F186A79DC00594B66 /* Foundation.framework */; };
+		8D36AFAB186A79DC00594B66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D36AF93186A79DC00594B66 /* UIKit.framework */; };
+		8D36AFB3186A79DC00594B66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D36AFB1186A79DC00594B66 /* InfoPlist.strings */; };
+		8D36AFB5186A79DC00594B66 /* v2exiosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D36AFB4186A79DC00594B66 /* v2exiosTests.m */; };
+		8D4DE2F0186BC5830021255D /* VXMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4DE2EE186BC5830021255D /* VXMenuViewController.m */; };
+		8D4DE2F1186BC5830021255D /* VXMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D4DE2EF186BC5830021255D /* VXMenuViewController.xib */; };
+		8D4DE2F5186BC5940021255D /* VXRecentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4DE2F3186BC5940021255D /* VXRecentViewController.m */; };
+		8D4DE2F6186BC5940021255D /* VXRecentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D4DE2F4186BC5940021255D /* VXRecentViewController.xib */; };
+		8D4DE2FA186BFB150021255D /* VXRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4DE2F9186BFB150021255D /* VXRequest.m */; };
+		8DDC45F6186C5D7B00FD180E /* VXThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDC45F4186C5D7B00FD180E /* VXThreadViewController.m */; };
+		8DDC45F7186C5D7B00FD180E /* VXThreadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DDC45F5186C5D7B00FD180E /* VXThreadViewController.xib */; };
+		8DE143EC187119C2004CDF82 /* VXNoteListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE143EA187119C2004CDF82 /* VXNoteListViewController.m */; };
+		8DE143ED187119C2004CDF82 /* VXNoteListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DE143EB187119C2004CDF82 /* VXNoteListViewController.xib */; };
+		8DE143F018712BE4004CDF82 /* reveal-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DE143EE18712BE4004CDF82 /* reveal-icon.png */; };
+		8DE143F118712BE4004CDF82 /* reveal-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DE143EF18712BE4004CDF82 /* reveal-icon@2x.png */; };
+		8DE143F41871317D004CDF82 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DE143F21871317D004CDF82 /* Icon.png */; };
+		8DE143F51871317D004CDF82 /* Icon.png@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DE143F31871317D004CDF82 /* Icon.png@2x.png */; };
+		DC60748A7EAD4488BDBF07AC /* libPods-v2exios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5F72099C844364B904D639 /* libPods-v2exios.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D36AFAC186A79DC00594B66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D36AF84186A79DC00594B66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D36AF8B186A79DC00594B66;
+			remoteInfo = v2exios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B5F72099C844364B904D639 /* libPods-v2exios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-v2exios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A8D673A2E6F48AEA9649E07 /* Pods-v2exios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-v2exios.xcconfig"; path = "Pods/Pods-v2exios.xcconfig"; sourceTree = "<group>"; };
+		8D0BA538186D4ADC00F8D95F /* VXThreadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXThreadCell.h; sourceTree = "<group>"; };
+		8D0BA539186D4ADC00F8D95F /* VXThreadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXThreadCell.m; sourceTree = "<group>"; };
+		8D0BA53B186D4F1800F8D95F /* VXThreadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VXThreadCell.xib; sourceTree = "<group>"; };
+		8D0BA540186D5E2100F8D95F /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
+		8D0BA542186D68CF00F8D95F /* VXPostCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXPostCell.h; sourceTree = "<group>"; };
+		8D0BA543186D68CF00F8D95F /* VXPostCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXPostCell.m; sourceTree = "<group>"; };
+		8D0BA545186D68E500F8D95F /* VXPostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VXPostCell.xib; sourceTree = "<group>"; };
+		8D0BA547186D7E4100F8D95F /* VXThreadDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXThreadDetailCell.h; sourceTree = "<group>"; };
+		8D0BA548186D7E4100F8D95F /* VXThreadDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXThreadDetailCell.m; sourceTree = "<group>"; };
+		8D0BA54A186D7E4F00F8D95F /* VXThreadDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VXThreadDetailCell.xib; sourceTree = "<group>"; };
+		8D2DC639186EFF3700CDFDF4 /* VXNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXNoteViewController.h; sourceTree = "<group>"; };
+		8D2DC63A186EFF3700CDFDF4 /* VXNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXNoteViewController.m; sourceTree = "<group>"; };
+		8D2DC63B186EFF3700CDFDF4 /* VXNoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VXNoteViewController.xib; sourceTree = "<group>"; };
+		8D36AF8C186A79DC00594B66 /* v2exios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = v2exios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D36AF8F186A79DC00594B66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8D36AF91186A79DC00594B66 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8D36AF93186A79DC00594B66 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8D36AF97186A79DC00594B66 /* v2exios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "v2exios-Info.plist"; sourceTree = "<group>"; };
+		8D36AF99186A79DC00594B66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D36AF9B186A79DC00594B66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D36AF9D186A79DC00594B66 /* v2exios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "v2exios-Prefix.pch"; sourceTree = "<group>"; };
+		8D36AF9E186A79DC00594B66 /* VXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VXAppDelegate.h; sourceTree = "<group>"; };
+		8D36AF9F186A79DC00594B66 /* VXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VXAppDelegate.m; sourceTree = "<group>"; };
+		8D36AFA7186A79DC00594B66 /* v2exiosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = v2exiosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D36AFA8186A79DC00594B66 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8D36AFB0186A79DC00594B66 /* v2exiosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "v2exiosTests-Info.plist"; sourceTree = "<group>"; };
+		8D36AFB2186A79DC00594B66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D36AFB4186A79DC00594B66 /* v2exiosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = v2exiosTests.m; sourceTree = "<group>"; };
+		8D4DE2ED186BC5830021255D /* VXMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXMenuViewController.h; sourceTree = "<group>"; };
+		8D4DE2EE186BC5830021255D /* VXMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXMenuViewController.m; sourceTree = "<group>"; };
+		8D4DE2EF186BC5830021255D /* VXMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VXMenuViewController.xib; sourceTree = "<group>"; };
+		8D4DE2F2186BC5940021255D /* VXRecentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXRecentViewController.h; sourceTree = "<group>"; };
+		8D4DE2F3186BC5940021255D /* VXRecentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXRecentViewController.m; sourceTree = "<group>"; };
+		8D4DE2F4186BC5940021255D /* VXRecentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VXRecentViewController.xib; sourceTree = "<group>"; };
+		8D4DE2F8186BFB150021255D /* VXRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXRequest.h; sourceTree = "<group>"; };
+		8D4DE2F9186BFB150021255D /* VXRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXRequest.m; sourceTree = "<group>"; };
+		8DDC45F3186C5D7B00FD180E /* VXThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXThreadViewController.h; sourceTree = "<group>"; };
+		8DDC45F4186C5D7B00FD180E /* VXThreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXThreadViewController.m; sourceTree = "<group>"; };
+		8DDC45F5186C5D7B00FD180E /* VXThreadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VXThreadViewController.xib; sourceTree = "<group>"; };
+		8DE143E9187119C2004CDF82 /* VXNoteListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXNoteListViewController.h; sourceTree = "<group>"; };
+		8DE143EA187119C2004CDF82 /* VXNoteListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXNoteListViewController.m; sourceTree = "<group>"; };
+		8DE143EB187119C2004CDF82 /* VXNoteListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VXNoteListViewController.xib; sourceTree = "<group>"; };
+		8DE143EE18712BE4004CDF82 /* reveal-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reveal-icon.png"; sourceTree = "<group>"; };
+		8DE143EF18712BE4004CDF82 /* reveal-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reveal-icon@2x.png"; sourceTree = "<group>"; };
+		8DE143F21871317D004CDF82 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		8DE143F31871317D004CDF82 /* Icon.png@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon.png@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D36AF89186A79DC00594B66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D36AF92186A79DC00594B66 /* CoreGraphics.framework in Frameworks */,
+				8D36AF94186A79DC00594B66 /* UIKit.framework in Frameworks */,
+				8D36AF90186A79DC00594B66 /* Foundation.framework in Frameworks */,
+				DC60748A7EAD4488BDBF07AC /* libPods-v2exios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D36AFA4186A79DC00594B66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D36AFA9186A79DC00594B66 /* XCTest.framework in Frameworks */,
+				8D36AFAB186A79DC00594B66 /* UIKit.framework in Frameworks */,
+				8D36AFAA186A79DC00594B66 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D0BA537186D4A3700F8D95F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D0BA538186D4ADC00F8D95F /* VXThreadCell.h */,
+				8D0BA539186D4ADC00F8D95F /* VXThreadCell.m */,
+				8D0BA53B186D4F1800F8D95F /* VXThreadCell.xib */,
+				8D0BA542186D68CF00F8D95F /* VXPostCell.h */,
+				8D0BA543186D68CF00F8D95F /* VXPostCell.m */,
+				8D0BA545186D68E500F8D95F /* VXPostCell.xib */,
+				8D0BA547186D7E4100F8D95F /* VXThreadDetailCell.h */,
+				8D0BA548186D7E4100F8D95F /* VXThreadDetailCell.m */,
+				8D0BA54A186D7E4F00F8D95F /* VXThreadDetailCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D0BA53F186D5E2100F8D95F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8DE143EE18712BE4004CDF82 /* reveal-icon.png */,
+				8DE143EF18712BE4004CDF82 /* reveal-icon@2x.png */,
+				8D0BA540186D5E2100F8D95F /* avatar.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		8D36AF83186A79DC00594B66 = {
+			isa = PBXGroup;
+			children = (
+				8D36AF95186A79DC00594B66 /* v2exios */,
+				8D36AFAE186A79DC00594B66 /* v2exiosTests */,
+				8D36AF8E186A79DC00594B66 /* Frameworks */,
+				8D36AF8D186A79DC00594B66 /* Products */,
+				3A8D673A2E6F48AEA9649E07 /* Pods-v2exios.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		8D36AF8D186A79DC00594B66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D36AF8C186A79DC00594B66 /* v2exios.app */,
+				8D36AFA7186A79DC00594B66 /* v2exiosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D36AF8E186A79DC00594B66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D36AF8F186A79DC00594B66 /* Foundation.framework */,
+				8D36AF91186A79DC00594B66 /* CoreGraphics.framework */,
+				8D36AF93186A79DC00594B66 /* UIKit.framework */,
+				8D36AFA8186A79DC00594B66 /* XCTest.framework */,
+				2B5F72099C844364B904D639 /* libPods-v2exios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D36AF95186A79DC00594B66 /* v2exios */ = {
+			isa = PBXGroup;
+			children = (
+				8DE143F21871317D004CDF82 /* Icon.png */,
+				8DE143F31871317D004CDF82 /* Icon.png@2x.png */,
+				8D0BA53F186D5E2100F8D95F /* Images */,
+				8D4DE2E5186BC1600021255D /* Classes */,
+				8D36AF9E186A79DC00594B66 /* VXAppDelegate.h */,
+				8D36AF9F186A79DC00594B66 /* VXAppDelegate.m */,
+				8D36AF96186A79DC00594B66 /* Supporting Files */,
+			);
+			path = v2exios;
+			sourceTree = "<group>";
+		};
+		8D36AF96186A79DC00594B66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D36AF97186A79DC00594B66 /* v2exios-Info.plist */,
+				8D36AF98186A79DC00594B66 /* InfoPlist.strings */,
+				8D36AF9B186A79DC00594B66 /* main.m */,
+				8D36AF9D186A79DC00594B66 /* v2exios-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D36AFAE186A79DC00594B66 /* v2exiosTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D36AFB4186A79DC00594B66 /* v2exiosTests.m */,
+				8D36AFAF186A79DC00594B66 /* Supporting Files */,
+			);
+			path = v2exiosTests;
+			sourceTree = "<group>";
+		};
+		8D36AFAF186A79DC00594B66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D36AFB0186A79DC00594B66 /* v2exiosTests-Info.plist */,
+				8D36AFB1186A79DC00594B66 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D4DE2E5186BC1600021255D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8D0BA537186D4A3700F8D95F /* View */,
+				8D4DE2F7186BFAF30021255D /* Request */,
+				8D4DE2E6186BC1600021255D /* ViewController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8D4DE2E6186BC1600021255D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8D4DE2ED186BC5830021255D /* VXMenuViewController.h */,
+				8D4DE2EE186BC5830021255D /* VXMenuViewController.m */,
+				8D4DE2EF186BC5830021255D /* VXMenuViewController.xib */,
+				8D4DE2F2186BC5940021255D /* VXRecentViewController.h */,
+				8D4DE2F3186BC5940021255D /* VXRecentViewController.m */,
+				8D4DE2F4186BC5940021255D /* VXRecentViewController.xib */,
+				8DDC45F3186C5D7B00FD180E /* VXThreadViewController.h */,
+				8DDC45F4186C5D7B00FD180E /* VXThreadViewController.m */,
+				8DDC45F5186C5D7B00FD180E /* VXThreadViewController.xib */,
+				8D2DC639186EFF3700CDFDF4 /* VXNoteViewController.h */,
+				8D2DC63A186EFF3700CDFDF4 /* VXNoteViewController.m */,
+				8D2DC63B186EFF3700CDFDF4 /* VXNoteViewController.xib */,
+				8DE143E9187119C2004CDF82 /* VXNoteListViewController.h */,
+				8DE143EA187119C2004CDF82 /* VXNoteListViewController.m */,
+				8DE143EB187119C2004CDF82 /* VXNoteListViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8D4DE2F7186BFAF30021255D /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				8D4DE2F8186BFB150021255D /* VXRequest.h */,
+				8D4DE2F9186BFB150021255D /* VXRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D36AF8B186A79DC00594B66 /* v2exios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D36AFB8186A79DC00594B66 /* Build configuration list for PBXNativeTarget "v2exios" */;
+			buildPhases = (
+				EF46A3F31DB94573A43FEA56 /* Check Pods Manifest.lock */,
+				8D36AF89186A79DC00594B66 /* Frameworks */,
+				8D36AF88186A79DC00594B66 /* Sources */,
+				8D36AF8A186A79DC00594B66 /* Resources */,
+				CE88A03416864C33BA6A7628 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = v2exios;
+			productName = v2exios;
+			productReference = 8D36AF8C186A79DC00594B66 /* v2exios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D36AFA6186A79DC00594B66 /* v2exiosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D36AFBB186A79DC00594B66 /* Build configuration list for PBXNativeTarget "v2exiosTests" */;
+			buildPhases = (
+				8D36AFA3186A79DC00594B66 /* Sources */,
+				8D36AFA4186A79DC00594B66 /* Frameworks */,
+				8D36AFA5186A79DC00594B66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D36AFAD186A79DC00594B66 /* PBXTargetDependency */,
+			);
+			name = v2exiosTests;
+			productName = v2exiosTests;
+			productReference = 8D36AFA7186A79DC00594B66 /* v2exiosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D36AF84186A79DC00594B66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VX;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = myoula;
+				TargetAttributes = {
+					8D36AFA6186A79DC00594B66 = {
+						TestTargetID = 8D36AF8B186A79DC00594B66;
+					};
+				};
+			};
+			buildConfigurationList = 8D36AF87186A79DC00594B66 /* Build configuration list for PBXProject "v2exios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8D36AF83186A79DC00594B66;
+			productRefGroup = 8D36AF8D186A79DC00594B66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D36AF8B186A79DC00594B66 /* v2exios */,
+				8D36AFA6186A79DC00594B66 /* v2exiosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D36AF8A186A79DC00594B66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D36AF9A186A79DC00594B66 /* InfoPlist.strings in Resources */,
+				8DDC45F7186C5D7B00FD180E /* VXThreadViewController.xib in Resources */,
+				8DE143ED187119C2004CDF82 /* VXNoteListViewController.xib in Resources */,
+				8D2DC63D186EFF3700CDFDF4 /* VXNoteViewController.xib in Resources */,
+				8D4DE2F6186BC5940021255D /* VXRecentViewController.xib in Resources */,
+				8D0BA546186D68E500F8D95F /* VXPostCell.xib in Resources */,
+				8D0BA541186D5E2100F8D95F /* avatar.png in Resources */,
+				8DE143F51871317D004CDF82 /* Icon.png@2x.png in Resources */,
+				8DE143F118712BE4004CDF82 /* reveal-icon@2x.png in Resources */,
+				8D0BA53C186D4F1800F8D95F /* VXThreadCell.xib in Resources */,
+				8D4DE2F1186BC5830021255D /* VXMenuViewController.xib in Resources */,
+				8D0BA54B186D7E4F00F8D95F /* VXThreadDetailCell.xib in Resources */,
+				8DE143F41871317D004CDF82 /* Icon.png in Resources */,
+				8DE143F018712BE4004CDF82 /* reveal-icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D36AFA5186A79DC00594B66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D36AFB3186A79DC00594B66 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CE88A03416864C33BA6A7628 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-v2exios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF46A3F31DB94573A43FEA56 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D36AF88186A79DC00594B66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2DC63C186EFF3700CDFDF4 /* VXNoteViewController.m in Sources */,
+				8DDC45F6186C5D7B00FD180E /* VXThreadViewController.m in Sources */,
+				8D36AFA0186A79DC00594B66 /* VXAppDelegate.m in Sources */,
+				8D4DE2F5186BC5940021255D /* VXRecentViewController.m in Sources */,
+				8D0BA544186D68CF00F8D95F /* VXPostCell.m in Sources */,
+				8D0BA549186D7E4100F8D95F /* VXThreadDetailCell.m in Sources */,
+				8D0BA53A186D4ADC00F8D95F /* VXThreadCell.m in Sources */,
+				8D4DE2F0186BC5830021255D /* VXMenuViewController.m in Sources */,
+				8D4DE2FA186BFB150021255D /* VXRequest.m in Sources */,
+				8DE143EC187119C2004CDF82 /* VXNoteListViewController.m in Sources */,
+				8D36AF9C186A79DC00594B66 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D36AFA3186A79DC00594B66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D36AFB5186A79DC00594B66 /* v2exiosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D36AFAD186A79DC00594B66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D36AF8B186A79DC00594B66 /* v2exios */;
+			targetProxy = 8D36AFAC186A79DC00594B66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D36AF98186A79DC00594B66 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D36AF99186A79DC00594B66 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8D36AFB1186A79DC00594B66 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D36AFB2186A79DC00594B66 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D36AFB6186A79DC00594B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8D36AFB7186A79DC00594B66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D36AFB9186A79DC00594B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A8D673A2E6F48AEA9649E07 /* Pods-v2exios.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "v2exios/v2exios-Prefix.pch";
+				INFOPLIST_FILE = "v2exios/v2exios-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8D36AFBA186A79DC00594B66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A8D673A2E6F48AEA9649E07 /* Pods-v2exios.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "v2exios/v2exios-Prefix.pch";
+				INFOPLIST_FILE = "v2exios/v2exios-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8D36AFBC186A79DC00594B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/v2exios.app/v2exios";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "v2exios/v2exios-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "v2exiosTests/v2exiosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8D36AFBD186A79DC00594B66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/v2exios.app/v2exios";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "v2exios/v2exios-Prefix.pch";
+				INFOPLIST_FILE = "v2exiosTests/v2exiosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D36AF87186A79DC00594B66 /* Build configuration list for PBXProject "v2exios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D36AFB6186A79DC00594B66 /* Debug */,
+				8D36AFB7186A79DC00594B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D36AFB8186A79DC00594B66 /* Build configuration list for PBXNativeTarget "v2exios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D36AFB9186A79DC00594B66 /* Debug */,
+				8D36AFBA186A79DC00594B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D36AFBB186A79DC00594B66 /* Build configuration list for PBXNativeTarget "v2exiosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D36AFBC186A79DC00594B66 /* Debug */,
+				8D36AFBD186A79DC00594B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D36AF84186A79DC00594B66 /* Project object */;
+}
